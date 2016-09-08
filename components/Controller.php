@@ -22,7 +22,7 @@ class Controller extends \yii\web\Controller
             return false;
         }
     }
-
+//good
     public function isAdmin()
     {
         if (!Yii::$app->user->isGuest) {
